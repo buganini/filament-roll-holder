@@ -74,4 +74,5 @@ module plate(){
 }
 
 holder();
+translate([0,roller+thickness,0]) holder();
 plate();
