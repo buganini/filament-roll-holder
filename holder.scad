@@ -13,8 +13,8 @@ module rcube(x,y,z,r){
 
 span = 126;
 roller = 107;
-hole = 50;
 thickness = 7;
+hole = min(span, roller)/2 - thickness;
 upper_height = 35 + thickness;
 wall_height = 50;
 lower_height = 5 + thickness;
